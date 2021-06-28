@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen1_AllisonRaul.SQLitePage">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="NUEVA_UBICACION" Clicked="ToolbarItem_Clicked"
+                     Order="Primary"
+                     Priority="0"/>
+
+        <ToolbarItem Text="Ubicaciones_Guardadas"
+                     Order="Primary"
+                     Priority="0"/>
+
+        
+    </ContentPage.ToolbarItems>
+
+        <StackLayout/>
+    
+
+</ContentPage>

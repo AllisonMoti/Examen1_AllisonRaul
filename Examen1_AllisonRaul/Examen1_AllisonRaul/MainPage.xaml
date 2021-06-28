@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen1_AllisonRaul.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#f0f4c3" Padding="24" CornerRadius="0">
+            <Label Text="UBICACION" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+            
+        </Frame>
+
+        <Button Text="Ingrese coordenadas" x:Name="btncoor" Clicked="btncoor_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen1_AllisonRaul.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="LATITUD ACTUAL" FontSize="Medium"/>
+            <Entry x:Name="txtlatitud" Placeholder="Introduzca latitud" Keyboard="Numeric" Text="{Binding latitud}" />
+
+            <Label Text="LONGITUD ACTUAL" FontSize="Medium"/>
+            <Entry x:Name="txtlongitud" Placeholder="Introduzca longitud" Keyboard="Numeric" Text="{Binding longitud}"/>
+
+            <Label Text="DESCRIPCION" FontSize="Medium"/>
+            <Entry x:Name="txtlongitud" Placeholder="Introduzca una ubicacion corta" Keyboard="Chat" Text="{Binding ubicorta}"/>
+
+            <Label Text="DESCRIBA UBICACION" FontSize="Medium"/>
+            <Entry x:Name="txtlongitud" Placeholder="Introduzca su ubicacion" Keyboard="Chat" Text="{Binding ubicacion}"/>
+
+            <Button Text="GUARDAR" x:Name="btnguardar" TextColor="Red" Clicked="btnguardar_Clicked"/>
+            <Button x:Name="btsqlite" Text="segunda pagina" TextColor="Red" Clicked="btsqlite_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>      
